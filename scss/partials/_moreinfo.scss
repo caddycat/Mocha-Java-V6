@@ -1,0 +1,24 @@
+#more-info section {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}   
+
+#more-info h6 {
+	text-transform: uppercase;
+	font-size: 1.125em;
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 1em;
+}  
+    
+#more-info p {
+	margin-top:.2em;
+	margin-bottom: 1.3em;
+} 
+
+@media (max-width: 767px) {
+#more-info .column {
+	padding: 0 1em;
+} 
+}

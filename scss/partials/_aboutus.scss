@@ -1,0 +1,188 @@
+/*ABOUT US PAGE*/
+
+#about-us {
+	
+	.img-holder {
+
+			position: absolute;
+			top: 35%;
+      right: 0;
+			width: 100%;
+			float: none;
+			margin: 0;
+		
+				img {
+					display: block;
+					width: 275px;
+					float: right;
+					display: block;
+					margin-top: -115px;
+			}
+		} 				
+}
+
+@media (max-width: 767px) {
+	#about-us .subhead {
+	margin-top: 5em;
+	}
+}
+
+
+
+/* (the story) -------------------*/
+
+#about-us-thestory {
+		
+			@media (min-width: 768px) and (max-width: 953px) {
+
+				.img-holder img {
+					margin-top: -130px;
+					width: 250px;
+					}
+				.text-wrapper {		
+					float: right;
+					width: 240px;
+					height: 220px;
+					border-radius: 30% / 30%;
+					background: red;
+					}
+				}
+
+			@media (min-width: 954px){
+				.text-wrapper {		
+					float: right;
+					width: 260px;
+					height: 250px;
+					border-radius: 30% / 30%;
+					background: red;
+					}
+				}
+
+			@media (max-width: 767px) {
+				img {
+					display: none;
+					}
+				}
+	}
+
+
+
+/*(WHY US) ----------------------*/
+
+#about-us-whyus {
+	
+			.dotted-box {
+				border: 2px dotted #412415;
+				}
+			ul {
+				padding: 2em 0 2em 2em;
+				}
+			ul li {
+				font-weight: normal;
+				text-align: center;
+				line-height: 2.5em;
+				min-width: 10em;
+				}
+	
+			@media (min-width: 768px) and (max-width: 953px) {
+
+					.img-holder img {
+						margin-top: -110px;
+						width: 250px;
+						}
+					.text-wrapper {		
+						float: right;
+						width: 240px;
+						height: 220px;
+						border-radius: 30% / 30%;
+						background: red;
+						}
+					ul li {
+						line-height: 2em;
+						}
+					}
+	
+			@media (min-width: 954px)and (max-width: 1050px) {
+					.text-wrapper {		
+						float: right;
+						width: 270px;
+						height: 150px;
+						border-radius: 30% / 30%;
+						background: red;
+						}
+					}
+			@media (min-width: 1051px){
+				
+					.text-wrapper {		
+						float: right;
+						width: 300px;
+						height: 150px;
+						border-radius: 30% / 30%;
+						background: red;
+						}
+					}
+	
+			@media (max-width: 767px) {
+					img {
+						display: none;
+						}
+					ul {
+						padding: 0 2em;
+						}
+					ul li {
+						line-height: 2em;
+						}
+
+					.dotted-box{
+						border: none;
+						}
+					}
+}
+
+
+
+.column-count-2 {
+		
+	@media (min-width: 953px) {
+	column-count: 2;
+	column-gap: 2em;
+	}
+}
+
+
+
+
+
+
+/*(the owner)--------------------*/
+
+
+
+#about-us-theowner {
+	
+		@media (min-width: 768px) and (max-width: 953px) {
+
+			.img-holder img {
+				margin-top: -110px;
+				width: 250px;
+				}
+			.text-wrapper {
+				float: right;
+				width: 230px;
+				height: 250px;
+				border-radius: 30% / 30%;
+				background: red;
+				}
+			}
+
+		@media (min-width: 954px){
+			.text-wrapper {		
+				float: right;
+				width: 260px;
+				height: 250px;
+				border-radius: 30% / 30%;
+				background: red;
+				}
+			}
+
+}

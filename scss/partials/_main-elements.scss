@@ -1,0 +1,236 @@
+/* 
+MAIN ELEMENTS (standard. not unique): 
+1. BODY
+2. HEADINGS
+3. LIST / LINKS
+4. BUTTONS 
+5. ROWS/COLUMNS
+6. MEDIA QUERIES
+7. CLEARFIXES
+8. HELPERS 
+*/
+
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #4c2c1b;
+	font-size: 100%; /* 16px */
+	line-height: 1.5em; /* 16px * 1.5 em= 24px */
+}
+html,body {
+  height:100%;
+  margin:0;
+}
+body {	
+	background-image: url('../images/canvas-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* 2. HEADINGS*/
+
+ h1, h2, h3, h4, h5, h6 {
+   margin: .5em 0;
+ }
+h1 {
+  font-size: 3em; /* 48px/16px=3em */
+  line-height: 1em;
+
+}
+h2 {
+  font-size: 2.25em; /* 36px/16px=2.25em */
+  line-height: 1.1em;
+}
+h3 {
+  font-size: 1.5em; /* 24px/16px=1.5em */
+  line-height: 1.2em;
+}
+h4 {
+  font-size: 1.3125em; /* 21px/16px=1.3125em */
+  line-height: 1.3em;
+    margin-top: 1.5em;
+}
+h5 {
+  font-size: 1.125em; /* 18px/16px=1.125em */
+  line-height: 1.4em;
+}
+h6 {
+  font-size: 1em; /* 16px/16px=1em */
+  line-height: 1.5em;
+}
+
+/* 3. LISTS & LINKS */
+
+ul {
+	padding-bottom: 1em;
+	margin: 0;
+}
+li, a {
+	list-style-type: none;
+	color:#4c2c1b;
+	text-decoration: none;
+}
+
+li a:hover, 
+li a:visited, 
+li a:focus {
+	font-weight: 700;
+ 	color: #412415;
+}
+
+/* 4. BUTTONS */
+
+button{
+    font-size: inherit;
+		border: none;
+}
+a.button,
+button {
+    display: inline-block;
+    background: none;
+    padding: 0;
+    line-height: 1em;
+    margin-bottom: .5em;
+
+}
+
+a.button:hover,
+button:hover{
+    background: none;
+    text-decoration: none;
+}
+
+
+
+
+/* 5. MEDIA QUERIES */
+
+/* sm (mobile) */
+body {
+   font-size: 80%;
+    margin: 0;
+    padding: 0;
+} 
+/* med (tablet) */
+@media (min-width: 768px) {
+	/* inherits small (mobile) CSS from above */
+}
+/* lg (laptop) */
+@media (min-width: 1050px) {
+	/* inherits med (tablet) CSS from above */
+    body {
+        font-size: 85%;
+    }
+}
+/* Xlarge (desktop) */
+@media (min-width: 1250px) {
+	/* inherits lg (laptop) CSS from above */
+    body {
+        font-size: 95%;
+    }
+}
+
+
+/* 6. ROWS & COLUMNS */
+
+.row { 
+}
+
+.column {
+    margin-bottom: 3em;
+}
+
+@media (min-width: 768px){
+    .column {
+        float: left;
+        margin-right: 8%;
+    }
+    .column:last-child {
+        margin-right: 0;
+    }
+    
+    /* width = 100 - gutters / # of columns */
+    .one-whole.column {width: 100%;}
+    .one-half.column {width: 46%;}
+    .one-third.column {width: 28%;}
+    .one-fourth.column {width: 19%;} 
+    .two-thirds.column {width: 64%;} 
+	
+	.column.centered {
+    	margin-left: auto;
+    	margin-right: auto;
+    	float: none;
+    	background: none;
+	}
+}
+
+/* 7. CLEARFIX */
+.group:after,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* 8. HELPERS */
+
+img.scale-with-grid {
+ max-width: 100%;
+ height: auto;
+}
+.hidden {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+.centeredtext {
+ text-align: center;
+}
+.left-align {
+	text-align: left;
+}
+
+.italicserif-brown {
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+	color: #412415;
+	font-size: .9em;
+	margin-bottom: .3em;
+	text-align: left;
+	}
+
+.name {
+	font-family: 'Sansita', sans-serif;
+	font-style: italic;
+	font-size: 1.3125em;
+	line-height: 1.7em;
+	font-weight:700;	
+		}
+
+@media (min-width: 768px) {
+	.show {
+		display: block;
+	}
+	.hide {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.left {
+		position: relative;
+		left: -115%;
+		transition: all 0.5s ease-out;
+	} 
+	.center {
+		position: relative;
+		left: 0%;
+		transition: all 0.5s ease-out;
+	}
+	.right {
+		position: relative;
+		left: 115%;
+		transition: all 0.5s ease-out;
+	} 
+}

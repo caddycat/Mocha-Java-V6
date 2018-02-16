@@ -1,0 +1,47 @@
+
+.hero {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 500px;
+	max-width: 100%;
+}
+.image1 {
+	background-image: url('../images/hero-image.png');
+}
+.image2 {
+	background-image: none;
+	background-color: red;
+}
+.image3 {
+	background-image: none;
+	background-color: blue;
+}
+
+
+
+.hero-message{
+    position:absolute;
+    top: 37%;
+    left: 10%;
+    right: 10%;
+}
+
+
+.hero h1 {
+	font-family: 'Sansita', sans-serif;
+	color: #fff;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 2.5em;
+    text-align: center;
+}
+.hero h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .5px;
+    text-align: center;
+    margin-top: 0;
+}

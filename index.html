@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mocha Java Cafe</title>
+
+<!-- HTML5 -->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+     
+<!-- VIEWPORT FOR MOBILE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+<!-- GOOGLE FONTS -->	
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sansita:400,400i,800i" rel="stylesheet">
+	
+<!-- SWIPER JS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/css/swiper.min.css">
+	
+<!-- MAIN CSS FILE -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+	
+	
+</head>
+
+<body>
+	
+<!-- MAIN HEADER -->	
+<header class="site-header no-border fixed toggle-nav">
+	
+		<div class="site-branding">
+					<a class="scroll" href="#home"><img src="images/MJ-logo.png" alt="Mocha Java Logo" class="scale-with-grid"/></a>
+					<h3 class="hidden">Mocha Java Cafe</h3>
+	 	</div>
+	
+		<nav class="site-navigation">
+			<div class="menu navicon">Menu</div>
+				<ul>
+					<li><a class="scroll" href="#home">Home</a></li>
+					<li><a class="scroll" href="#about-us">About Us</a></li>
+					<li><a class="scroll" href="#menu">Our Menu</a></li>	
+					<li><a class="scroll" href="#contact">Contact Us</a></li>
+					<li><a class="scroll" href="#more-info">More Info</a></li>
+				</ul>
+				<ul>
+					<li><a class="divider" href="https://www.facebook.com/Mocha-Java-Cafe-182271358506013/">Facebook</a></li>
+					<li><a href="https://www.yelp.com/biz/mocha-java-caf%C3%A9-honolulu-5">Yelp</a></li>		
+				</ul>
+		</nav>
+		<div>
+			<img src="images/search.png" alt="search" class="search hidden">
+		</div>	
+	 
+</header>
+	
+<!-- MAIN ITEMS -->	
+<main class="site-main">
+	
+<!--START "HOME" section -->
+	
+<section class="vertical-container" id="home">
+	<div class="vertical-container-inner">
+
+		<!-- Slider main container -->
+
+			<!-- Slides -->
+			<div class="hero image1"> 
+
+					<div class="hero-message">
+						<h1>"A Great Gathering Place!"</h1>
+						<h4>Meet up with your group and enjoy a great cafe experience today!</h4>		
+					</div>
+
+			</div>
+
+		</div>
+
+</section> <!--END "HOME" section -->
+	
+	
+<!--START "ABOUT US" -->
+
+<section class="vertical-container" id="about-us">
+	<div class="vertical-container-inner">
+		<div class="subwrapper">
+			
+			<header class="subhead"> <!--outside swiper-container, stays fixed -->
+				<h5>About Us</h5>
+				<img src="images/subhead-coffee_icon.gif" alt="coffeecup">
+					<nav class="top-nav">
+						<ul>
+							<li><a href="#ourstory" onclick="swiperH.slideTo(0);">Our Story</a></li>
+							<li><a href="#whyus" onclick="swiperH.slideTo(1);">Why Us</a></li>
+							<li><a href="#owner" onclick="swiperH.slideTo(2);">Owner</a></li>
+						</ul>
+					</nav>
+			</header>
+			
+		<div id="myswiperwrap" class="swiper-container swiper-container-h">
+			<div class="swiper-wrapper">
+				
+				<!-- The story  -->
+					<div id="about-us-thestory" class="swiper-slide" data-hash="thestory">
+						<h4>Our Story</h4>
+						<div class="row">
+							<div class="one-whole column">
+							<div class="text-wrapper"></div>
+							<p>Mocha Java Café first opened in 1983. The cafe is known for featuring healthy gourmet food, a vegetarian and vegan gourmet menu, coffee and espresso, milkshakes, smoothies, sandwiches, salads, crepes, omelettes and the best acai bowls in town. Great fresh fruit smoothies, blended coffee drinks and thick milkshakes are served at this cafe.</p>
+
+							<p>The cafe is an award-winning establishment, taking the category of Best Espresso Fountain in the Zagat Survey. The food here is also exceptional, there are some terrific crepes on the menu, and the Belgian Waffles are really something. For breakfast lovers, this establishment serves breakfast all day. Mocha Java’s ambiance of being family friendly attracts many and customers who use Mocha Java as a gathering place of all sorts. And of course—the best seating may be in the lovely courtyard!</p>
+								
+							</div>
+						</div>
+
+						<div class="img-holder">
+							<img src="images/aboutus_coffeecup_new.png" alt="coffeecup"/>
+						</div>
+						<div class="bottom-nav">
+							<button class="swiper-button-next">
+								<p class="italicserif-blue">Next</p>
+							<img src="images/righthand.png"></button>
+						</div>
+					</div>
+				
+				<!-- Why Us  -->
+					<div id="about-us-whyus" class="swiper-slide" data-hash="whyus">
+						<h4> WHY US </h4>
+						<div class="dotted-box">	
+							<div class="text-wrapper"></div>
+								<ul class="column-count-2">
+									<li>In Business Since 1983</li>
+									<li>Organic Fresh Ingredients </li>
+									<li>Vegetarian &amp; Vegan Friendly</li>
+									<li>Quality at Affordable Prices </li>
+									<li>Guest First Experience</li>
+									<li>Customized Diet Choices </li>
+									<li>Small Cafe-Big Menu</li>
+									<li>Award Winning Establishment </li>
+								</ul>
+						</div>	
+
+					<div class="img-holder">
+							<img src="images/aboutus_leaf_new.png" alt="coffeecup_leaf" />
+					</div>
+
+						<div class="bottom-nav">
+							<button class="swiper-button-prev">
+								<p class="italicserif-blue"> Back</p>
+								<img src="images/lefthand.png"></button> 
+								<button class="swiper-button-next">
+								<p class="italicserif-blue"> Next</p>
+								<img src="images/righthand.png"></button>
+						</div>
+					</div>
+
+				<!-- The Owner  -->
+					<div id="about-us-theowner" class="swiper-slide" data-hash="owner">
+
+						<h4> THE OWNER </h4>
+							<div class="row">				
+								<div class="text-wrapper"></div>
+									<P> <span class="name">Luzia Maia</span>—the former swimmer and coach—first movedfrom Brazil to Hawaii in 1991 with then-husband Jose Jube. The couple went into the restaurant business when a friend offered them a chance to buy Mocha Java Cafe. The cafe still remains in it’s current location in the Ward Center. Luzia Maia states her strategies for staying in business has been to offer products that are in demand, keep existing product line consistent, be hands-on as an owner and raise prices to accommodate rising costs.</P>
+								
+								</div>
+
+								<div class="img-holder">	
+									<img src="images/aboutus_ownerpic_new.png" alt="coffeecup_leaf_owner pic" />
+								</div>
+
+
+						<div class="bottom-nav">
+							<div class="swiper-button-prev">
+								<p class="italicserif-blue">Back</p>
+								<img src="images/lefthand.png"></div>
+						</div>
+					</div>
+    
+				</div><!--END swipper-wrapper-->
+  		</div> <!--END swipper-container-->
+			
+		</div> <!--END subwrapper-->
+	</div> <!--END vertical-inner-->
+</section> <!--END vertical-container "ABOUT US" section -->
+	
+	
+<!--START "MENU" -->
+	
+<section class="vertical-container" id="menu">
+	<div class="vertical-container-inner">
+		
+			<div class="subhead">
+		 		<h5>Menu</h5>
+				<img src="images/subhead-plate&utensil_icon.gif" alt="plate&utensil" />
+			</div>
+		
+		<section>
+			
+			
+			<div class="row">
+						<div class="one-third column">
+							<h4><a href="#">BREAKFAST</a></h4>
+								<p> Breakfast Favorites Served All Day!</p>
+							<h4><a href="#"> MEALS</a> </h4>
+								<p> Crepes, Sandwiches, Salads, Soups and Many Island Favorites!</p>
+							<h4> <a href="#">ACAI BOWLS </a></h4>
+								<p> 10 Popular Bowls or "Create Your Own".</p>
+							<h4><a href="#">DRINKS </a></h4>
+								<p> Serving Coffee, Espresso, Teas, Juices, Smoothies and Delicious Shakes</p>
+
+							<p class="italicserif-brown"> *Call About Our Daily Specials!</p>
+
+							<p><a class="button alt" href=#> Download Full Menu </a></p>
+						</div>	
+				
+				
+						<div class="two-thirds column img-holder-menu">
+							<img src="images/Menu_Slide1.png" alt="oatmeal" class=" toggle-image first-image show"/>
+							<img src="images/Menu_Slide2.png" alt="oatmeal" class=" toggle-image first-image"/>
+							<img src="images/Menu_Slide3.png" alt="oatmeal" class=" toggle-image first-image"/>
+						
+						</div>
+			</div>
+			
+
+		</section>
+		
+	</div>
+	</section> <!--END "MENU" section -->
+	
+	
+<!--START "CONTACT US" -->
+	
+<section class="vertical-container" id="contact">
+	<div class="vertical-container-inner">
+		
+			<div class="subhead">
+		 		<h5>Contact Us</h5>
+				<img src="images/subhead-compass_icon.gif" alt="compass" />
+			</div>
+		
+		<section>
+			
+			<div class="row">
+				<div class="one-whole column">
+						<a href="https://search.yahoo.com/local/s;_ylt=AwrTHRITNwpZZj4AudVXNyoA;_ylu=X3oDMTExM2Jia211BGNvbG8DZ3ExBHBvcwMxBHZ0aWQDREZENl8xBHNlYwNzYw--?p=Mocha+Java+Caf%C3%A9&addr=Honolulu,HI&listingid=21898657&fr=spigot-chr-gcmac#"><img src="images/map.png" alt="map" class="map scale-with-grid"/></a>
+				</div>
+			
+			</div>
+			
+			<div class="row absolute">
+			 <div class="two-thirds column">
+				<ul>
+					<li><strong>1200 ALA MOANA BLVD, HONOLULU, HI  96814</strong> </li> 
+					<li> (808) 591-9023 &amp; | &amp; F (808) 591-9022 </li>
+					<li><a href="#">MOCHAJAVACAFE.COM</a></li>
+				 </ul>
+				</div>
+				<div class="one-third column">
+				<ul>
+					<li>HOURS:</li>
+					<li>M–SAT, 7AM–9PM </li> 
+					<li>SUN, 8AM–6PM</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+	</section> <!--END "CONTACT US" section -->
+
+	
+<!--START "MORE INFO" -->
+	
+<section class="vertical-container" id="more-info">
+	<div class="vertical-container-inner">
+		
+			<div class="subhead">
+		 		<h5>More Info</h5>
+				<img src="images/subhead-info_icon.gif" alt="info" />
+			</div>
+		
+		<section>
+			
+			<div class="row">
+				<div class="one-whole column">
+				
+				<h6>We provide</h6>
+				<p>Indoor and outdoor seating | Lots of tables and chairs for your group gatherings |  Free WI-FI with purchase <br>Outlets (limited) for charging | Highchairs for todlers | Service with a SMILE!</p>
+					
+				<h6>take out</h6>
+				<p>The entire menu including drinks can be packed To-Go. Phone orders are welcome.</p>
+					
+				<h6>Parking</h6>
+				<p>Lots of parking available in covered seven-story parking structure at no charge.  Valet parking is $6.</p>
+					
+				<h6>Handicap Accessible</h6>
+				<p>Cafe is located on the first floor of the Ward Center. No hassle of stairs. A convenient curb-side drop off <br>and 10 minute parking are right outside of the Cafe’s location.</p>
+					
+				<h6>Pets Welcomed</h6>
+				<p>The outside terrace is a lovely spot to hang out with your four-legged buddy (pet dress code-leash required).</p>
+					
+				<h6>Payments Accepted</h6>
+				<p>All major credit cards (Visa, Mastercard, Diners, Discover, American Express) | Apple Pay | Bit coin.</p>
+							
+				</div>
+			</div>
+		</section>
+		
+	</div>
+	</section> <!--end "MORE INFO" section -->
+	
+	
+</main>
+
+<!-- MAIN FOOTER -->	
+<footer class="site-footer">
+		<ul>
+		 <li>1200 Ala Moana Blvd</li>
+			<li>Honolulu, HI 96814</li>
+			<li>&copy; 2017 Mocha Java Cafe</li>
+		</ul>	
+</footer>
+	
+	
+	
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+<!--FLICKER JS -->
+<script src="js/flicker.js"></script>	
+	
+<!--SWIPER JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/js/swiper.min.js"></script>
+	
+	<script>
+		//ABOUT US SWIPER
+		
+		var myWinWidth = window.innerWidth;
+		console.log("my window width is: " + myWinWidth);
+		if (myWinWidth > 768) {
+		
+		
+	var swiperH = new Swiper('.swiper-container-h', {
+      spaceBetween: 50,
+      hashNavigation: {
+        replaceState: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    })
+	
+	}
+	</script>
+	
+<!-- SCRIPT JS FILE -->
+<script src="js/script.js"></script> 
+	
+	
+<!-- SCROLL JS FILE -->
+<script src="js/scroll.min.js"></script> 
+	
+
+
+
+</body>
+</html>
